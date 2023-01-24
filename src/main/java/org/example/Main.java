@@ -7,7 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 //component
 //Autowired
 //Configuration
-//primary used to mention if collsions occurs which need to execute first
+//primary used to mention if collisions occurs which need to execute first
 //Component Scan is used to scan entire mentioned directory or path
 //Quantifer used to mention the name which is going to execute if called
 
