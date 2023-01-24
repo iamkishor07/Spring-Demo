@@ -13,9 +13,6 @@ public class Teacher {
         teacherDetails.details();
     }
 
-    public void display() {
-        teacherDetails.display();
-    }
 
 
     }
