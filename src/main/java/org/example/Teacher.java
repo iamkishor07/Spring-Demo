@@ -11,7 +11,9 @@ public class Teacher {
     public  void show(){
         System.out.println("The following Details are");
         teacherDetails.details();
+        teacherDetails.TeacherName();
     }
+
 
 
 
