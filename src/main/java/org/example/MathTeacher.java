@@ -11,6 +11,9 @@ public class MathTeacher implements TeacherDetails {
     public  void  details(){
         System.out.println("I teach Math Subjects");
     }
+    public  void  Address(){
+        System.out.println("Stays at America");
+    }
 
 
 }
