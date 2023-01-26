@@ -12,6 +12,7 @@ public class Teacher {
         System.out.println("The following Details are");
         teacherDetails.details();
         teacherDetails.TeacherName();
+        teacherDetails.Address();
     }
 
 

@@ -6,4 +6,6 @@ import org.springframework.stereotype.Component;
 interface TeacherDetails {
     void details();
     void TeacherName();
+
+    void  Address();
 }

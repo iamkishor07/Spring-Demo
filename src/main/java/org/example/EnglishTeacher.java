@@ -12,4 +12,7 @@ public class EnglishTeacher implements TeacherDetails {
     public  void  details(){
         System.out.println("I teach English Subject");
     }
+    public  void  Address(){
+        System.out.println("I live in mumbai");
+    }
 }
