@@ -15,7 +15,7 @@ public class MathTeacher implements TeacherDetails {
         System.out.println("Stays at America");
     }
 
-    public  void  age(){
+    public  void  ageOfTeacher(){
         System.out.println("23");
     }
 
