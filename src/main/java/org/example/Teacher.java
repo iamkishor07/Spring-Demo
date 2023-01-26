@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class Teacher {
     @Autowired
     TeacherDetails teacherDetails;
-    public  void show(){
+    public  void Display(){
         System.out.println("The following Details are");
         teacherDetails.details();
         teacherDetails.TeacherName();

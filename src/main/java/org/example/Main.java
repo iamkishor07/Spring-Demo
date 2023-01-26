@@ -18,7 +18,7 @@ public class Main {
         ApplicationContext factory=new AnnotationConfigApplicationContext(AppConfig.class);
 
         Teacher obj=factory.getBean(Teacher.class);
-        obj.show();
+        obj.Display();
 
     }
  }
