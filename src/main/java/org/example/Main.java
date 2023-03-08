@@ -2,6 +2,7 @@ package org.example;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 // Spring core Annotations
 //component
@@ -15,10 +16,12 @@ public class Main {
 
 
     public static void main(String[] args) {
-        ApplicationContext factory=new AnnotationConfigApplicationContext(AppConfig.class);
+//        ApplicationContext factory=new AnnotationConfigApplicationContext(AppConfig.class);
 
+        ApplicationContext factory=new ClassPathXmlApplicationContext("com/example/spring.xml");
         Teacher obj=factory.getBean(Teacher.class);
         obj.Display();
+        //THis is spring application Demo
 
     }
  }
